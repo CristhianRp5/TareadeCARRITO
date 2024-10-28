@@ -1,0 +1,80 @@
+:root{
+    --color-acento: #25cd73;
+    --color-acento-claro: #d4d7f2c9;
+    --color-texto: #02010133;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+a:hover:not(#cart){
+    color: var(--color-acento)
+}
+
+header{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.289);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position:relative;
+
+}
+
+#cuenta-carrito{
+    background-color: var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+
+}
+
+
+button{
+    background-color: var(--color-acento);
+    color: white;
+    padding: 5px 10px;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 40px;
+}
+
+
+header nav img{
+    height: 25px;
+}
+
+
+footer{
+    margin-top: auto;
+    box-shadow: 0 -3px 5px black;
+    text-align: center;
+}
